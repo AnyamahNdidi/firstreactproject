@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Firctcom from './playground/firstcom';
+import Secondcom from './playground/secondcom';
+import Thirdcom from './playground/thirdcom';
+import CenterButton from './component/component';
+import Main from './compo/Main';
+
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Main/>
     </div>
   );
 }

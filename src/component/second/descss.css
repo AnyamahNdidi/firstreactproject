@@ -1,0 +1,42 @@
+.container1{
+    background: #333333;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:  0;
+}
+
+.container1_wrapper{
+   height: 400px;
+   width: 600px;
+   background-color: azure;
+   border-radius: 10px; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+.container1_img{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 10px 0 0 10px;
+}
+
+/* 
+.container1_wrapper{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: grid;
+}
+.container1_imgh{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 20px 0 0 20px;
+} */

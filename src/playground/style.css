@@ -1,0 +1,51 @@
+.container{
+ display: flex;
+ margin-top: 30px;
+ margin-left: 30px;
+
+}
+
+.container_contentNameDate{
+    display: flex;
+}
+.container_content{
+   
+    margin-left: 70px;
+}
+.container_image{
+    width: 75px;
+    height: 80;
+    object-fit: contain;
+}
+.contentDate{
+    color: lightgray;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.contentName{
+    cursor: pointer;
+    color: blue;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.containerAveter{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.contentReply{
+    font-size:12px ;
+    font-weight: 500;
+    cursor: pointer;
+    color:lightgray;
+}
+.contentReply:hover{
+    color: black;
+    font-size: 12px;
+}
+.contentComment{
+    font-size: 12px;
+}
+
